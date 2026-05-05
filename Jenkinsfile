@@ -174,10 +174,10 @@ pipeline {
             steps {
                 sh '''
                 echo "APP_NAME=$APP_NAME"
-                echo "DOCKER_IMAGE=$DOCKER_IMAGE"
+                echo "DOCKER_IMAGE=$DOCKER_IAGE"
                 echo "IMAGE_TAG=$IMAGE_TAG"
                 '''
-        
+            }
         }
 
         stage('Install Dependencies') {
